@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Asus\\git\\Pahamify-QA-technical-test\\QA_TEST.apk', true)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.closeApplication()
+

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Asus\\git\\Pahamify-QA-technical-test\\QA_TEST.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Objek/android.widget.LinearLayout'), 0)
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Selanjutnya'), 0)
 
@@ -43,11 +43,13 @@ Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Fis
 
 Mobile.tap(findTestObject('Object Repository/Objek/android.view.ViewGroup'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Dinamika Benda Tegar'), 0)
+Mobile.tap(findTestObject('Objek/android.widget.TextView - Dinamika Benda Tegar'), 0)
 
-Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Objek/android.widget.Button - Putar'), 0)
+
+Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 
