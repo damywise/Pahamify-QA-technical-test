@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\Asus\\git\\Pahamify-QA-technical-test\\QA_TEST.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.LinearLayout'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Selanjutnya'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Selanjutnya'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Selanjutnya'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Mulai'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Sudah punya akunLogin di sini'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Objek/android.widget.EditText - email'), 'qa_07@premium.com', 0)
+
+Mobile.setText(findTestObject('Object Repository/Objek/android.widget.EditText - kata sandi'), 'YHXFCPCZ', 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Masuk'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Belajar'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Fisika'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.view.ViewGroup'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.TextView - Dinamika Benda Tegar'), 0)
+
+Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Objek/android.widget.Button - Putar'), 0)
+
+Mobile.closeApplication()
+
